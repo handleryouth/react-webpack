@@ -5,10 +5,10 @@ import logo from "./assets/logo.svg";
 
 function App() {
   return (
-    <div className="!min-w-[320px] !max-w-none flex items-center flex-col prose">
+    <div className="!min-w-[320px] !max-w-none flex items-center flex-col prose my-8 px-8 md:px-0">
       <img src={logo} />
       <Title />
-      <img src={illustration} />
+      <img src={illustration} className="w-full max-w-[600px]" />
       <Footer />
     </div>
   );

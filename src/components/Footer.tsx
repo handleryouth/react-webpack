@@ -5,12 +5,13 @@ import RoundedIcon from "./RoundedIcon";
 export default function Footer() {
   return (
     <div>
-      <RoundedIcon icon={<FaFacebookF />} />
-      <FaFacebookF />
-      <FaTwitter />
-      <FaInstagram />
+      <div className="flex items-center justify-center gap-3">
+        <RoundedIcon icon={<FaFacebookF />} />
+        <RoundedIcon icon={<FaTwitter />} />
+        <RoundedIcon icon={<FaInstagram />} />
+      </div>
 
-      <p>© 2021 Loopstudios. All rights reserved.</p>
+      <p className="text-center">© 2021 Loopstudios. All rights reserved.</p>
     </div>
   );
 }
