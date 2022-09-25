@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "incremental": true,
+    "baseUrl": "src/"
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "postcss.config.js",
+    "tailwind.config.js",
+    "webpack.config.js"
+  ]
+}
